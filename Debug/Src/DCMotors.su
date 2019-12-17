@@ -1,0 +1,8 @@
+DCMotors.c:5:6:motorBegin	24	static
+DCMotors.c:26:8:myABS	24	static
+DCMotors.c:35:6:updateAxis	24	static
+DCMotors.c:81:6:updateAxis_Simple	24	static
+DCMotors.c:104:6:motorSimpleBegin	24	static
+DCMotors.c:115:6:motorForward	16	static
+DCMotors.c:125:7:motorBackward	16	static
+DCMotors.c:135:6:pierce	16	static
