@@ -8,7 +8,6 @@
 #ifndef PS2KEYBOARD_H_
 #define PS2KEYBOARD_H_
 
-#include "stm32f1xx_it.h"
 #include "gpio.h"
 #include "pgmspace.h"
 // Every call to read() returns a single byte for each
@@ -158,40 +157,27 @@ typedef struct {
 
 #define BUFFER_SIZE 45
 typedef struct{
-	volatile uint8_t buffer[BUFFER_SIZE]; //MUDEI static volatile
-	volatile uint8_t head, tail; //MUDEI static volatile
-	uint8_t DataPin; //MUDEI static
+	volatile uint8_t buffer[BUFFER_SIZE];
+	volatile uint8_t head, tail;
+	uint8_t CharBuffer;
+	uint8_t UTF8next;
+	uint16_t DataPin;
+	uint16_t IQRPin;
 	GPIO_TypeDef* DataPort;
-	uint8_t IQRPin;
 	GPIO_TypeDef* IQRPort;
-	uint8_t CharBuffer; //MUDEI static
-	uint8_t UTF8next; //MUDEI static
 	const PS2Keymap_t *keymap;
 } Keyboard_TypeDef;
 
 
-
-/* ---------------FUNCTION DEFINITIONS---------------*/
-void keyboardBegin(Keyboard_TypeDef* keyboard, GPIO_TypeDef* data_port, uint8_t data_pin, GPIO_TypeDef* iqr_port, uint8_t iqr_pin);
+void keyboardBegin(Keyboard_TypeDef* keyboard, GPIO_TypeDef* data_port, uint16_t data_pin, GPIO_TypeDef* iqr_port, uint16_t iqr_pin);
 void ps2interrupt(Keyboard_TypeDef* keyboard);
-uint8_t keyboardAvailable(Keyboard_TypeDef* keyboard);
 void keyboardClear(Keyboard_TypeDef* keyboard);
+uint8_t keyboardAvailable(Keyboard_TypeDef* keyboard);
 uint8_t keyboardReadScanCode(Keyboard_TypeDef* keyboard);
 uint8_t keyboardRead(Keyboard_TypeDef* keyboard);
-void interruption();
-// ******************AO DAR BEGIN NO TELCADO, SETAR CharBuffer, UTF8next e keymap para 0
 
-//**********COLOCAR A MATRIZ DO LAYOUT DO TECLADO!!!1 ******************
 
 const PROGMEM PS2Keymap_t PS2Keymap_US;
-
-/*extern const PROGMEM PS2Keymap_t PS2Keymap_German;
-extern const PROGMEM PS2Keymap_t PS2Keymap_French;
-extern const PROGMEM PS2Keymap_t PS2Keymap_Spanish;
-extern const PROGMEM PS2Keymap_t PS2Keymap_Italian;
-extern const PROGMEM PS2Keymap_t PS2Keymap_UK;
-*/
-
 
 
 #endif /* PS2KEYBOARD_H_ */

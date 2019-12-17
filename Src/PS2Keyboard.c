@@ -8,54 +8,6 @@
 
 #include "PS2Keyboard.h"
 
-
-
-// The ISR for the external interrupt
-void ps2interrupt(Keyboard_TypeDef* keyboard)
-{
-	static uint8_t bitcount=0;
-	static uint8_t incoming=0;
-	static uint32_t prev_ms=0;
-	uint32_t now_ms;
-	uint8_t n, val;
-
-	val = HAL_GPIO_ReadPin(keyboard->DataPort, keyboard->DataPin); 
-	now_ms = HAL_GetTick() ;
-	if (now_ms - prev_ms > 250) {
-		bitcount = 0;
-		incoming = 0;
-	}
-	prev_ms = now_ms;
-	n = bitcount - 1;
-	if (n <= 7) {
-		incoming |= (val << n);
-	}
-	bitcount++;
-	if (bitcount == 11) {
-		uint8_t i = keyboard->head + 1;
-		if (i >= BUFFER_SIZE) i = 0;
-		if (i != keyboard->tail) {
-			keyboard->buffer[i] = incoming;
-			keyboard->head = i;
-		}
-		bitcount = 0;
-		incoming = 0;
-	}
-}
-
-static inline uint8_t get_scan_code(Keyboard_TypeDef* keyboard)
-{
-	uint8_t c, i;
-
-	i = keyboard->tail;
-	if (i == keyboard->head) return 0;
-	i++;
-	if (i >= BUFFER_SIZE) i = 0;
-	c = keyboard->buffer[i];
-	keyboard->tail = i;
-	return c;
-}
-
 const PROGMEM PS2Keymap_t PS2Keymap_US = {
   // without shift
 	{0, PS2_F9, 0, PS2_F5, PS2_F3, PS2_F1, PS2_F2, PS2_F12,
@@ -101,6 +53,52 @@ const PROGMEM PS2Keymap_t PS2Keymap_US = {
 #define SHIFT_L   0x04
 #define SHIFT_R   0x08
 #define ALTGR     0x10
+
+// The ISR for the external interrupt
+void ps2interrupt(Keyboard_TypeDef* keyboard)
+{
+	static uint8_t bitcount=0;
+	static uint8_t incoming=0;
+	static uint32_t prev_ms=0;
+	uint32_t now_ms;
+	int8_t n, val;
+
+	val = HAL_GPIO_ReadPin(keyboard->DataPort, keyboard->DataPin);
+	now_ms = HAL_GetTick() ;
+	if (now_ms - prev_ms > 250) {
+		bitcount = 0;
+		incoming = 0;
+	}
+	prev_ms = now_ms;
+	n = bitcount - 1;
+	if (n <= 7) {
+		incoming |= (val << n);
+	}
+	bitcount++;
+	if (bitcount == 11) {
+		uint8_t i = keyboard->head + 1;
+		if (i >= BUFFER_SIZE) i = 0;
+		if (i != keyboard->tail) {
+			keyboard->buffer[i] = incoming;
+			keyboard->head = i;
+		}
+		bitcount = 0;
+		incoming = 0;
+	}
+}
+
+static inline uint8_t get_scan_code(Keyboard_TypeDef* keyboard)
+{
+	uint8_t c, i;
+
+	i = keyboard->tail;
+	if (i == keyboard->head) return 0;
+	i++;
+	if (i >= BUFFER_SIZE) i = 0;
+	c = keyboard->buffer[i];
+	keyboard->tail = i;
+	return c;
+}
 
 static char get_iso8859_code(Keyboard_TypeDef* keyboard)
 {
@@ -225,7 +223,7 @@ int keyboardReadUnicode(Keyboard_TypeDef* keyboard) {
 /* PIN CONFIGURATION: both DataPin and IQRPin must be iniciatized with PULLUP configuration
 */
 
-void keyboardBegin(Keyboard_TypeDef* keyboard, GPIO_TypeDef* data_port, uint8_t data_pin, GPIO_TypeDef* iqr_port, uint8_t iqr_pin) {
+void keyboardBegin(Keyboard_TypeDef* keyboard, GPIO_TypeDef* data_port, uint16_t data_pin, GPIO_TypeDef* iqr_port, uint16_t iqr_pin) {
 
   keyboard->DataPort = data_port;
   keyboard->DataPin = data_pin;

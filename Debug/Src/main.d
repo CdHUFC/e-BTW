@@ -22,9 +22,9 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h ../Inc/tim.h \
- ../Inc/main.h ../Inc/gpio.h ../Inc/PS2Keyboard.h ../Inc/stm32f1xx_it.h \
- ../Inc/gpio.h ../Inc/pgmspace.h ../Inc/brailleMatrix.h ../Inc/DCMotors.h \
- ../Inc/DCMotors.h ../Inc/stm32f1xx_it.h
+ ../Inc/main.h ../Inc/gpio.h ../Inc/PS2Keyboard.h ../Inc/gpio.h \
+ ../Inc/pgmspace.h ../Inc/brailleMatrix.h ../Inc/stm32f1xx_it.h \
+ ../Inc/DCMotors.h ../Inc/DCMotors.h ../Inc/stm32f1xx_it.h
 
 ../Inc/main.h:
 
@@ -82,13 +82,13 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
 
 ../Inc/PS2Keyboard.h:
 
-../Inc/stm32f1xx_it.h:
-
 ../Inc/gpio.h:
 
 ../Inc/pgmspace.h:
 
 ../Inc/brailleMatrix.h:
+
+../Inc/stm32f1xx_it.h:
 
 ../Inc/DCMotors.h:
 

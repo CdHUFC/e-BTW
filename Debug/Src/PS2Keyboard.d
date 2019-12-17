@@ -1,5 +1,5 @@
 Src/PS2Keyboard.o: ../Src/PS2Keyboard.c ../Inc/PS2Keyboard.h \
- ../Inc/stm32f1xx_it.h ../Inc/gpio.h ../Inc/main.h \
+ ../Inc/gpio.h ../Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -26,8 +26,6 @@ Src/PS2Keyboard.o: ../Src/PS2Keyboard.c ../Inc/PS2Keyboard.h \
  ../Inc/pgmspace.h
 
 ../Inc/PS2Keyboard.h:
-
-../Inc/stm32f1xx_it.h:
 
 ../Inc/gpio.h:
 
