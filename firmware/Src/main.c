@@ -69,12 +69,18 @@ unsigned char buffer_braille[4];
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+void interruption();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+<<<<<<< HEAD:firmware/Src/main.c
 
+=======
+void interruption(){
+	ps2interrupt(&keyboard);
+}
+>>>>>>> parent of c309a30... Teclado funcionando:Src/main.c
 /* USER CODE END 0 */
 
 /**
@@ -138,13 +144,9 @@ int main(void)
 	  					HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_SET);
 	  					break;
 	  				}else if(c == PS2_DOWNARROW){
-	  					updateAxis(&motorX, motorX.setPoint - 50);
-	  				}else if(c == PS2_UPARROW){
-	  					updateAxis(&motorX, motorX.setPoint + 50);
-	  				}else if(c == PS2_LEFTARROW){
-	  					updateAxis(&motorY, motorY.setPoint + 50);
-	  				}else if(c == PS2_RIGHTARROW){
 	  					updateAxis(&motorY, motorY.setPoint - 50);
+	  				}else if(c == PS2_UPARROW){
+	  					updateAxis(&motorY, motorY.setPoint + 50);
 	  				}else if(c == PS2_BACKSPACE){
 	  					clearBuffer(buffer_char);
 	  				}else{
@@ -246,8 +248,6 @@ int main(void)
 	  		HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_RESET);
 	  		keyboardClear(&keyboard);
 	  		clearBuffer(buffer_char);
-
-
   }
   /* USER CODE END 3 */
 }

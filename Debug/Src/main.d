@@ -1,9 +1,4 @@
-<<<<<<< HEAD:firmware/Debug/Src/gpio.d
-Src/gpio.o: ../Src/gpio.c ../Inc/gpio.h ../Inc/main.h \
-=======
-Src/PS2Keyboard.o: ../Src/PS2Keyboard.c ../Inc/PS2Keyboard.h \
- ../Inc/stm32f1xx_it.h ../Inc/gpio.h ../Inc/main.h \
->>>>>>> parent of c309a30... Teclado funcionando:Debug/Src/PS2Keyboard.d
+Src/main.o: ../Src/main.c ../Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -26,14 +21,10 @@ Src/PS2Keyboard.o: ../Src/PS2Keyboard.c ../Inc/PS2Keyboard.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
-
-../Inc/stm32f1xx_it.h:
-
-../Inc/gpio.h:
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h ../Inc/tim.h \
+ ../Inc/main.h ../Inc/gpio.h ../Inc/PS2Keyboard.h ../Inc/stm32f1xx_it.h \
+ ../Inc/gpio.h ../Inc/pgmspace.h ../Inc/brailleMatrix.h ../Inc/DCMotors.h \
+ ../Inc/DCMotors.h ../Inc/stm32f1xx_it.h
 
 ../Inc/main.h:
 
@@ -83,8 +74,24 @@ Src/PS2Keyboard.o: ../Src/PS2Keyboard.c ../Inc/PS2Keyboard.h \
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 
-../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
+../Inc/tim.h:
 
-../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
+../Inc/main.h:
 
-../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
+../Inc/gpio.h:
+
+../Inc/PS2Keyboard.h:
+
+../Inc/stm32f1xx_it.h:
+
+../Inc/gpio.h:
+
+../Inc/pgmspace.h:
+
+../Inc/brailleMatrix.h:
+
+../Inc/DCMotors.h:
+
+../Inc/DCMotors.h:
+
+../Inc/stm32f1xx_it.h:

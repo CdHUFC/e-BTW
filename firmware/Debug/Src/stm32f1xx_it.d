@@ -22,10 +22,15 @@ Src/stm32f1xx_it.o: ../Src/stm32f1xx_it.c ../Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
+<<<<<<< HEAD:firmware/Debug/Src/stm32f1xx_it.d
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
  ../Inc/stm32f1xx_it.h
+=======
+ ../Inc/stm32f1xx_it.h ../Inc/PS2Keyboard.h ../Inc/stm32f1xx_it.h \
+ ../Inc/gpio.h ../Inc/main.h ../Inc/pgmspace.h
+>>>>>>> parent of c309a30... Teclado funcionando:Debug/Src/stm32f1xx_it.d
 
 ../Inc/main.h:
 
@@ -82,3 +87,13 @@ Src/stm32f1xx_it.o: ../Src/stm32f1xx_it.c ../Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
 
 ../Inc/stm32f1xx_it.h:
+
+../Inc/PS2Keyboard.h:
+
+../Inc/stm32f1xx_it.h:
+
+../Inc/gpio.h:
+
+../Inc/main.h:
+
+../Inc/pgmspace.h:

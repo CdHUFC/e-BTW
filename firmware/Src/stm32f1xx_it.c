@@ -23,6 +23,7 @@
 #include "stm32f1xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "PS2Keyboard.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -202,11 +203,19 @@ void SysTick_Handler(void)
   */
 void USB_LP_CAN1_RX0_IRQHandler(void)
 {
+<<<<<<< HEAD:firmware/Src/stm32f1xx_it.c
   /* USER CODE BEGIN USB_LP_CAN1_RX0_IRQn 0 */
 
   /* USER CODE END USB_LP_CAN1_RX0_IRQn 0 */
   HAL_PCD_IRQHandler(&hpcd_USB_FS);
   /* USER CODE BEGIN USB_LP_CAN1_RX0_IRQn 1 */
+=======
+  /* USER CODE BEGIN EXTI9_5_IRQn 0 */
+	interruption();
+  /* USER CODE END EXTI9_5_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_7);
+  /* USER CODE BEGIN EXTI9_5_IRQn 1 */
+>>>>>>> parent of c309a30... Teclado funcionando:Src/stm32f1xx_it.c
 
   /* USER CODE END USB_LP_CAN1_RX0_IRQn 1 */
 }

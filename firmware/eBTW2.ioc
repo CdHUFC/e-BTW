@@ -93,6 +93,17 @@ PB1.Signal=GPIO_Output
 PB3.GPIOParameters=GPIO_Label
 PB3.GPIO_Label=ENCODER_X_B
 PB3.Signal=S_TIM2_CH2
+<<<<<<< HEAD:firmware/eBTW2.ioc
+=======
+PB7.GPIOParameters=GPIO_Label
+PB7.GPIO_Label=PS2_IQR_CLK
+PB7.Locked=true
+PB7.Signal=GPXTI7
+PB8.GPIOParameters=GPIO_Label
+PB8.GPIO_Label=PS2_DATA
+PB8.Locked=true
+PB8.Signal=GPIO_Input
+>>>>>>> parent of c309a30... Teclado funcionando:eBTW2.ioc
 PC13-TAMPER-RTC.GPIOParameters=GPIO_Label
 PC13-TAMPER-RTC.GPIO_Label=OUTPUT_LED
 PC13-TAMPER-RTC.Locked=true
