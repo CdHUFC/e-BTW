@@ -1,9 +1,0 @@
-PS2Keyboard.c:58:6:ps2interrupt	32	static
-PS2Keyboard.c:90:23:get_scan_code	24	static
-PS2Keyboard.c:103:13:get_iso8859_code	24	static
-PS2Keyboard.c:172:9:keyboardAvailable	16	static
-PS2Keyboard.c:179:6:keyboardClear	16	static
-PS2Keyboard.c:184:9:keyboardReadScanCode	16	static
-PS2Keyboard.c:189:9:keyboardRead	24	static
-PS2Keyboard.c:211:5:keyboardReadUnicode	24	static
-PS2Keyboard.c:226:6:keyboardBegin	24	static
