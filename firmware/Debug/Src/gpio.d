@@ -1,4 +1,4 @@
-Src/sys.o: ../Src/sys.c ../Inc/sys.h ../Inc/main.h \
+Src/gpio.o: ../Src/gpio.c ../Inc/gpio.h ../Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -26,7 +26,7 @@ Src/sys.o: ../Src/sys.c ../Inc/sys.h ../Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
 
-../Inc/sys.h:
+../Inc/gpio.h:
 
 ../Inc/main.h:
 

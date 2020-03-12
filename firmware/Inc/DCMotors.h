@@ -11,10 +11,17 @@
 #include "DCMotors.h"
 #include "gpio.h"
 #include <stdint.h>
+#include <math.h>
 
-#define DELTA_COL_LIN 		11 // 2.7 mm
-#define DELTA_CHAR_H 		8  // 1.9 mm
-#define DELTA_CHAR_V 		14 // 3.4 mm
+#define NUM_MIN_STEP 16.83
+
+#define DELTA_COL_LIN_MM 2.70
+#define DELTA_CHAR_H_MM 1.90
+#define DELTA_CHAR_MM 3.40
+
+#define DELTA_COL_LIN 		round(DELTA_COL_LIN_MM*NUM_MIN_STEP) // 2.7 mm
+#define DELTA_CHAR_H 		round(DELTA_CHAR_H_MM*NUM_MIN_STEP)  // 1.9 mm
+#define DELTA_CHAR_V 		round(DELTA_CHAR_MM*NUM_MIN_STEP) // 3.4 mm
 
 #define P_FRACTION 			1.0     //Proportional factor of control loop 0.001 - 10.0 (1.0)
 #define STEP_MARGIN 		10     //10 - 1000 (1)
@@ -22,7 +29,7 @@
 #define MIN_DUTYCYCLE 		175   //0 - 255 (125)
 #define MAX_DUTYCYCLE 		255  //0 - 255 (255)
 
-#define PIERCE_TIME			100
+#define PIERCE_TIME			200
 
 #define UP					1
 #define DOWN				0

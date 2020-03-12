@@ -135,5 +135,5 @@ void  motorBackward(MotorControl_Simple_t* motor, uint32_t time){
 void pierce(MotorControl_Simple_t* motor, uint32_t time){
 	motorForward(motor, time);
 	motorBackward(motor, time);
-	HAL_Delay(200);
+	HAL_Delay(500);
 }

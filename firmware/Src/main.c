@@ -69,6 +69,7 @@ unsigned char buffer_braille[4];
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -84,6 +85,7 @@ int main(void)
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
+  
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -113,8 +115,7 @@ int main(void)
   motorBegin(&motorX, &htim2, MOTOR_X_A_GPIO_Port, MOTOR_X_A_Pin, MOTOR_X_B_GPIO_Port, MOTOR_X_B_Pin);
   motorBegin(&motorY, &htim1, MOTOR_Y_A_GPIO_Port, MOTOR_Y_A_Pin, MOTOR_Y_B_GPIO_Port, MOTOR_Y_B_Pin);
 
-  //motorSimpleBegin(&motorZ, Motor_Z_A_GPIO_Port, Motor_Z_A_Pin, Motor_Z_B_GPIO_Port, Motor_Z_B_Pin);
-
+  motorSimpleBegin(&motorZ, Motor_Z_A_GPIO_Port, Motor_Z_A_Pin, Motor_Z_B_GPIO_Port, Motor_Z_B_Pin);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -131,15 +132,19 @@ int main(void)
 	  				HAL_Delay(100);
 	  				HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_RESET);
 	  				uint8_t c = keyboardRead(&keyboard);
-	  				if(c == ENTER){
+	  				if(c == PS2_ENTER){
 	  					pressedEnter = 1;
 	  					HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_SET);
 	  					break;
-	  				}else if(c == DOWNARROW){
-	  					updateAxis(&motorY, motorY.setPoint - 50);
-	  				}else if(c == UPARROW){
-	  					updateAxis(&motorY, motorY.setPoint + 50);
-	  				}else if(c == BACKSPACE){
+	  				}else if(c == PS2_DOWNARROW){
+	  					updateAxis(&motorY, motorY.setPoint - 17);
+	  				}else if(c == PS2_UPARROW){
+	  					updateAxis(&motorY, motorY.setPoint + 17);
+	  				}else if(c == PS2_LEFTARROW){
+	  					updateAxis(&motorX, motorX.setPoint + 17);
+	  				}else if(c == PS2_RIGHTARROW){
+	  					updateAxis(&motorX, motorX.setPoint - 17);
+	  				}else if(c == PS2_BACKSPACE){
 	  					clearBuffer(buffer_char);
 	  				}else{
 
@@ -147,6 +152,7 @@ int main(void)
 
 	  					feedBuffer(buffer_char, MAX_CARACTERES, c);
 	  				}
+	  				keyboardClear(&keyboard);
 	  			}
 	  		}
 	  		//Programa leitura do teclado
@@ -239,6 +245,8 @@ int main(void)
 	  		HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_RESET);
 	  		keyboardClear(&keyboard);
 	  		clearBuffer(buffer_char);
+
+
   }
   /* USER CODE END 3 */
 }
