@@ -69,18 +69,10 @@ unsigned char buffer_braille[4];
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-void interruption();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-<<<<<<< HEAD:firmware/Src/main.c
-
-=======
-void interruption(){
-	ps2interrupt(&keyboard);
-}
->>>>>>> parent of c309a30... Teclado funcionando:Src/main.c
 /* USER CODE END 0 */
 
 /**
@@ -155,7 +147,6 @@ int main(void)
 
 	  					feedBuffer(buffer_char, MAX_CARACTERES, c);
 	  				}
-	  				keyboardClear(&keyboard);
 	  			}
 	  		}
 	  		//Programa leitura do teclado
