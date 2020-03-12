@@ -1,5 +1,5 @@
 # e-BTW
-## Low-cost Braille Printer using Cortex-M0 and recycled materials
+## Low-cost Braille Printer using Bluepill and recycled materials
 
 ### Contributors
     @MinhaTu        Ailson Alexandre da Silva Morais
@@ -15,7 +15,7 @@ This project aims to build a functional Braille Printer that can help in the pro
 Este projeto visa construir uma impressora de Braille funcional que pode ajudar no processo de escrita e leitura nesse sistema. Resumidamente, nossa impressora trabalha com um mecanismo tipo CNC que se move nos eixos X, Y, nos quais há uma agulha acoplada a um motor DC que representa o eixo Z. Controlado pelo processador Cortex-M0 por meio de uma interface PS2, a agulha é responsável por fazer o Braille "escrevendo" os pontos.
 
 ### Material List:
-    -Microcontrolador Stm32F030F4P6;
+    -Microcontrolador STM32F1030C8T6;
     -Wooden base (50cm x 40cm);
     -Wooden base (31cm x 25cm);
     -3x DC motors (12V);
@@ -32,7 +32,7 @@ Este projeto visa construir uma impressora de Braille funcional que pode ajudar 
     -3x H Bridges;
     
 ### Lista de materiais
-    -Microcontrolador Stm32F030F4P6;
+    -Microcontrolador STM32F1030C8T6;
     -Base de madeira (50cm x 40cm);
     -Base de madeira (31cm x 25cm);
     -3x Motores DC (12V);
