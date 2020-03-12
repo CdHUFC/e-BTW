@@ -131,15 +131,15 @@ int main(void)
 	  				HAL_Delay(100);
 	  				HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_RESET);
 	  				uint8_t c = keyboardRead(&keyboard);
-	  				if(c == PS2_ENTER){
+	  				if(c == ENTER){
 	  					pressedEnter = 1;
 	  					HAL_GPIO_WritePin(OUTPUT_LED_GPIO_Port, OUTPUT_LED_Pin, GPIO_PIN_SET);
 	  					break;
-	  				}else if(c == PS2_DOWNARROW){
+	  				}else if(c == DOWNARROW){
 	  					updateAxis(&motorY, motorY.setPoint - 50);
-	  				}else if(c == PS2_UPARROW){
+	  				}else if(c == UPARROW){
 	  					updateAxis(&motorY, motorY.setPoint + 50);
-	  				}else if(c == PS2_BACKSPACE){
+	  				}else if(c == BACKSPACE){
 	  					clearBuffer(buffer_char);
 	  				}else{
 
