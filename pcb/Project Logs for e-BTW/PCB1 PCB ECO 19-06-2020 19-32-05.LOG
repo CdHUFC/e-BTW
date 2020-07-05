@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=S1 Old Footprint=SPST-2 New Footprint=SW_B3FS-1010P
+Added Member To Class: ClassName=Sheet1 Member=Component 5 Res3
+Added Member To Class: ClassName=Sheet1 Member=Component 6 Res3
+Added Room: Name=H-Bridge
+Added Room: Name=Sheet1

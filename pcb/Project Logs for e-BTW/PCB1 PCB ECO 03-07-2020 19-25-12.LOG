@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=MOTOR_Z+ Pin=J2-1
+Removed Pin From Net: NetName=MOTOR_Z- Pin=J2-2
+Removed Pin From Net: NetName=MOTOR_X+ Pin=P2-1
+Removed Pin From Net: NetName=MOTOR_X- Pin=P2-2
+Removed Pin From Net: NetName=+3V3 Pin=P2-3
+Removed Pin From Net: NetName=GND Pin=P2-4
+Removed Pin From Net: NetName=ENCODER_XA Pin=P2-5
+Removed Pin From Net: NetName=ENCODER_XB Pin=P2-6
+Removed Pin From Net: NetName=MOTOR_Y+ Pin=P3-1
+Removed Pin From Net: NetName=MOTOR_Y- Pin=P3-2
+Removed Pin From Net: NetName=+3V3 Pin=P3-3
+Removed Pin From Net: NetName=GND Pin=P3-4
+Removed Pin From Net: NetName=ENCODER_YA Pin=P3-5
+Removed Pin From Net: NetName=ENCODER_YB Pin=P3-6
+Removed Member From Class: ClassName=PCB_TopSchematic Member=J2
+Removed Member From Class: ClassName=PCB_TopSchematic Member=P2
+Removed Member From Class: ClassName=PCB_TopSchematic Member=P3
+Added Component: Designator=P2_1(JST_B6B-PH-SM4-TB(LF)(SN))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B6B-PH-SM4-TB_LF__SN_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part/52131/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P2_2(JST_B6B-PH-SM4-TB(LF)(SN))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B6B-PH-SM4-TB_LF__SN_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part/52131/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P2_3(JST_B6B-PH-SM4-TB(LF)(SN))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B6B-PH-SM4-TB_LF__SN_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part/52131/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MOTOR_X+ Pin=P2_1-1
+Added Pin To Net: NetName=MOTOR_X- Pin=P2_1-2
+Added Pin To Net: NetName=+3V3 Pin=P2_1-3
+Added Pin To Net: NetName=GND Pin=P2_1-4
+Added Pin To Net: NetName=ENCODER_XA Pin=P2_1-5
+Added Pin To Net: NetName=ENCODER_XB Pin=P2_1-6
+Added Pin To Net: NetName=MOTOR_Y+ Pin=P2_2-1
+Added Pin To Net: NetName=MOTOR_Y- Pin=P2_2-2
+Added Pin To Net: NetName=+3V3 Pin=P2_2-3
+Added Pin To Net: NetName=GND Pin=P2_2-4
+Added Pin To Net: NetName=ENCODER_YA Pin=P2_2-5
+Added Pin To Net: NetName=ENCODER_YB Pin=P2_2-6
+Added Pin To Net: NetName=MOTOR_Z+ Pin=P2_3-1
+Added Pin To Net: NetName=MOTOR_Z- Pin=P2_3-2
+Added Pin To Net: NetName=+3V3 Pin=P2_3-3
+Added Pin To Net: NetName=GND Pin=P2_3-4
+Change Net Name : Old Net Name=MOTOR_X+ New Net Name=Net1_1_6
+Change Net Name : Old Net Name=MOTOR_X- New Net Name=Net1_1_8
+Change Net Name : Old Net Name=MOTOR_Y+ New Net Name=Net1_2_6
+Change Net Name : Old Net Name=MOTOR_Y- New Net Name=Net1_2_8
+Change Net Name : Old Net Name=MOTOR_Z+ New Net Name=Net1_3_6
+Change Net Name : Old Net Name=MOTOR_Z- New Net Name=Net1_3_8
+Added Pin To Net: NetName=NetP2_3_5 Pin=P2_3-5
+Added Net: Name=NetP2_3_5
+Added Pin To Net: NetName=NetP2_3_6 Pin=P2_3-6
+Added Net: Name=NetP2_3_6
+Added Member To Class: ClassName=MotorX Member=Component P2_1 (P2) B6B-PH-SM4-TB(LF)(SN)
+Added Member To Class: ClassName=MotorY Member=Component P2_2 (P2) B6B-PH-SM4-TB(LF)(SN)
+Added Member To Class: ClassName=MotorZ Member=Component P2_3 (P2) B6B-PH-SM4-TB(LF)(SN)

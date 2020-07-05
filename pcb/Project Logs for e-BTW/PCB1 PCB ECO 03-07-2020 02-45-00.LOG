@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=1 Old DesignItemId=Res3 New DesignItemId=
+Change Component DesignItemId : Designator=2 Old DesignItemId=Res3 New DesignItemId=
+Change Component DesignItemId : Designator=3 Old DesignItemId=Res3 New DesignItemId=
+Change Component Library : Designator=1 Old Library=Miscellaneous Devices.IntLib New Library=RC0603JR-071KL.IntLib
+Change Component Library : Designator=2 Old Library=Miscellaneous Devices.IntLib New Library=RC0603JR-071KL.IntLib
+Change Component Library : Designator=3 Old Library=Miscellaneous Devices.IntLib New Library=RC0603JR-071KL.IntLib

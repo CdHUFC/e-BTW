@@ -1,0 +1,36 @@
+Removed Member From Class: ClassName=MotorZ Member=P3
+Change Component Designator: OldDesignator=1 NewDesignator=1_3
+Change Component Designator: OldDesignator=2 NewDesignator=1_2
+Change Component Designator: OldDesignator=3 NewDesignator=1_1
+Change Component Designator: OldDesignator=C1 NewDesignator=C1_3
+Change Component Designator: OldDesignator=C2 NewDesignator=C2_3
+Change Component Designator: OldDesignator=C5 NewDesignator=C1_2
+Change Component Designator: OldDesignator=C7 NewDesignator=C2_2
+Change Component Designator: OldDesignator=C19 NewDesignator=C1_1
+Change Component Designator: OldDesignator=C20 NewDesignator=C2_1
+Change Component Designator: OldDesignator=P1 NewDesignator=P1_3
+Change Component Designator: OldDesignator=P2 NewDesignator=P1_2
+Change Component Designator: OldDesignator=P4 NewDesignator=P1_1
+Change Component Designator: OldDesignator=R1 NewDesignator=R1_3
+Change Component Designator: OldDesignator=R3 NewDesignator=R1_2
+Change Component Designator: OldDesignator=R5 NewDesignator=R1_1
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetD2_1
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetP2_3_5 New Net Name=NetP1_3_5
+Change Net Name : Old Net Name=NetP2_3_6 New Net Name=NetP1_3_6
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR4_1
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component C6 Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component C9 Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component C12 Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component C13 Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component C14 Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component C16 Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component D1 SML-E12M8WT86
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component J1 B3B-PH-SM4-TB(LF)(SN)
+Added Member To Class: ClassName=MotorZ Member=Component P1_3 (P1) B6B-PH-SM4-TB(LF)(SN)
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component X1 USB-B1HSB6
+Added Room: Name=MotorX
+Added Room: Name=MotorY
+Added Room: Name=MotorZ
+Added Room: Name=PCB_TopSchematic

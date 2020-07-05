@@ -1,0 +1,214 @@
+Change Component Footprint: Designator=C1 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C2 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C3 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C5 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C6 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C9 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C10 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C11 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C12 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C13 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C14 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C15 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C16 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=C17 Old Footprint=1608[0603] New Footprint=C1206
+Change Component Footprint: Designator=1 Old Footprint=RESC1607X60N New Footprint=J1-0603
+Change Component Footprint: Designator=2 Old Footprint=RESC1607X60N New Footprint=J1-0603
+Change Component Footprint: Designator=3 Old Footprint=RESC1607X60N New Footprint=J1-0603
+Change Component Footprint: Designator=R2 Old Footprint=RESC1607X60N New Footprint=J1-0603
+Change Component Designator: OldDesignator=1 NewDesignator=4
+Change Component Designator: OldDesignator=C1 NewDesignator=C4
+Change Component Designator: OldDesignator=C2 NewDesignator=C15
+Change Component Designator: OldDesignator=C3 NewDesignator=C14
+Change Component Designator: OldDesignator=C5 NewDesignator=C13
+Change Component Designator: OldDesignator=C6 NewDesignator=C16
+Change Component Designator: OldDesignator=C9 NewDesignator=C5
+Change Component Designator: OldDesignator=C10 NewDesignator=C6
+Change Component Designator: OldDesignator=C11 NewDesignator=C7
+Change Component Designator: OldDesignator=C12 NewDesignator=C8
+Change Component Designator: OldDesignator=C13 NewDesignator=C9
+Change Component Designator: OldDesignator=C14 NewDesignator=C10
+Change Component Designator: OldDesignator=C15 NewDesignator=C11
+Change Component Designator: OldDesignator=C16 NewDesignator=C3
+Change Component Designator: OldDesignator=C17 NewDesignator=C12
+Change Component Designator: OldDesignator=D1 NewDesignator=D3
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=D3 NewDesignator=D2
+Change Component Designator: OldDesignator=J2 NewDesignator=J3
+Change Component Designator: OldDesignator=J3 NewDesignator=J4
+Change Component Designator: OldDesignator=J4 NewDesignator=J2
+Change Component Designator: OldDesignator=P3 NewDesignator=P1
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Added Component: Designator=1_Motor - X(DDA0008H_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DRV8872DDAR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DRV8872DDAR/Texas%20Instruments/view-part/561864/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=1_Motor - Y(DDA0008H_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DRV8872DDAR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DRV8872DDAR/Texas%20Instruments/view-part/561864/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=1_Motor - Z(DDA0008H_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DRV8872DDAR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DRV8872DDAR/Texas%20Instruments/view-part/561864/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C1_Motor - X(CAP_UWF_6P3X5P00)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UWR1E470MCL1GB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Nichicon_2019-09-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Nichicon"; VariantName = "[No Variations]"
+Added Component: Designator=C1_Motor - Y(CAP_UWF_6P3X5P00)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UWR1E470MCL1GB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Nichicon_2019-09-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Nichicon"; VariantName = "[No Variations]"
+Added Component: Designator=C1_Motor - Z(CAP_UWF_6P3X5P00)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Cory"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UWR1E470MCL1GB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Nichicon_2019-09-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Nichicon"; VariantName = "[No Variations]"
+Added Component: Designator=C2_Motor - X(1608[0603])
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2_Motor - Y(1608[0603])
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2_Motor - Z(1608[0603])
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=P2(JST_B6B-PH-SM4-TB(LF)(SN))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B6B-PH-SM4-TB_LF__SN_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part/52131/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P3(JST_B6B-PH-SM4-TB(LF)(SN))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B6B-PH-SM4-TB_LF__SN_"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B6B-PH-SM4-TB%28LF%29%28SN%29/JST%20Sales%20America%20Inc./view-part/52131/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=1_Motor - X-1
+Added Pin To Net: NetName=H_BRIDGE_XB Pin=1_Motor - X-2
+Added Pin To Net: NetName=H_BRIDGE_XA Pin=1_Motor - X-3
+Added Pin To Net: NetName=nFault_X Pin=1_Motor - X-4
+Added Pin To Net: NetName=VDD Pin=1_Motor - X-5
+Added Pin To Net: NetName=MOTOR_X+ Pin=1_Motor - X-6
+Added Pin To Net: NetName=Net6_7 Pin=1_Motor - X-7
+Added Pin To Net: NetName=MOTOR_X- Pin=1_Motor - X-8
+Added Pin To Net: NetName=GND Pin=1_Motor - X-9
+Added Pin To Net: NetName=GND Pin=1_Motor - Y-1
+Added Pin To Net: NetName=H_BRIDGE_YB Pin=1_Motor - Y-2
+Added Pin To Net: NetName=H_BRIDGE_YA Pin=1_Motor - Y-3
+Added Pin To Net: NetName=nFault_Y Pin=1_Motor - Y-4
+Added Pin To Net: NetName=VDD Pin=1_Motor - Y-5
+Added Pin To Net: NetName=MOTOR_Y+ Pin=1_Motor - Y-6
+Added Pin To Net: NetName=Net5_7 Pin=1_Motor - Y-7
+Added Pin To Net: NetName=MOTOR_Y- Pin=1_Motor - Y-8
+Added Pin To Net: NetName=GND Pin=1_Motor - Y-9
+Added Pin To Net: NetName=GND Pin=1_Motor - Z-1
+Added Pin To Net: NetName=H_BRIDGE_ZB Pin=1_Motor - Z-2
+Added Pin To Net: NetName=H_BRIDGE_ZA Pin=1_Motor - Z-3
+Added Pin To Net: NetName=nFault_Z Pin=1_Motor - Z-4
+Added Pin To Net: NetName=VDD Pin=1_Motor - Z-5
+Added Pin To Net: NetName=MOTOR_Z+ Pin=1_Motor - Z-6
+Added Pin To Net: NetName=Net4_7 Pin=1_Motor - Z-7
+Added Pin To Net: NetName=MOTOR_Z- Pin=1_Motor - Z-8
+Added Pin To Net: NetName=GND Pin=1_Motor - Z-9
+Added Pin To Net: NetName=GND Pin=C1_Motor - X-1
+Added Pin To Net: NetName=VDD Pin=C1_Motor - X-2
+Added Pin To Net: NetName=GND Pin=C1_Motor - Y-1
+Added Pin To Net: NetName=VDD Pin=C1_Motor - Y-2
+Added Pin To Net: NetName=GND Pin=C1_Motor - Z-1
+Added Pin To Net: NetName=VDD Pin=C1_Motor - Z-2
+Added Pin To Net: NetName=GND Pin=C2_Motor - X-1
+Added Pin To Net: NetName=VDD Pin=C2_Motor - X-2
+Added Pin To Net: NetName=GND Pin=C2_Motor - Y-1
+Added Pin To Net: NetName=VDD Pin=C2_Motor - Y-2
+Added Pin To Net: NetName=GND Pin=C2_Motor - Z-1
+Added Pin To Net: NetName=VDD Pin=C2_Motor - Z-2
+Added Pin To Net: NetName=MOTOR_X+ Pin=P2-1
+Added Pin To Net: NetName=MOTOR_X- Pin=P2-2
+Added Pin To Net: NetName=+3V3 Pin=P2-3
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=ENCODER_XA Pin=P2-5
+Added Pin To Net: NetName=ENCODER_XB Pin=P2-6
+Added Pin To Net: NetName=MOTOR_Y+ Pin=P3-1
+Added Pin To Net: NetName=MOTOR_Y- Pin=P3-2
+Added Pin To Net: NetName=+3V3 Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=ENCODER_YA Pin=P3-5
+Added Pin To Net: NetName=ENCODER_YB Pin=P3-6
+Change Net Name : Old Net Name=Net1_2 New Net Name=Net4_2
+Change Net Name : Old Net Name=Net4_7 New Net Name=Net1_Motor - Z_7
+Change Net Name : Old Net Name=Net5_7 New Net Name=Net1_Motor - Y_7
+Change Net Name : Old Net Name=Net6_7 New Net Name=Net1_Motor - X_7
+Change Net Name : Old Net Name=NetC17_1 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR3_1
+Change Net Name : Old Net Name=NetU2_8 New Net Name=NetU1_8
+Change Class Name : Old Net Name=H-Bridge New Net Name=Motor - X
+Change Class Name : Old Net Name=Sheet1 New Net Name=PCB_TopSchematic
+Added Class: Name=Motor - Y
+Added Class: Name=Motor - Z
+Added Class: Name=H-Bridge
+Added Member To Class: ClassName=Motor - X Member=Component 1_Motor - X (1) DRV8872DDAR
+Added Member To Class: ClassName=Motor - X Member=Component C1_Motor - X (C1) 47uF
+Added Member To Class: ClassName=Motor - X Member=Component C2_Motor - X (C2) Cap Semi
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component P2 B6B-PH-SM4-TB(LF)(SN)
+Added Member To Class: ClassName=PCB_TopSchematic Member=Component P3 B6B-PH-SM4-TB(LF)(SN)
+Added Room: Name=Motor - X
+Added Room: Name=Motor - Y
+Added Room: Name=Motor - Z
+Added Room: Name=PCB_TopSchematic

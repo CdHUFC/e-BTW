@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=R1 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Change Component Footprint: Designator=R2 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Change Component Footprint: Designator=R3 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Change Component Footprint: Designator=R5 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Change Component Footprint: Designator=D1 Old Footprint=RESC1607X60N New Footprint=0603
+Change Component Footprint: Designator=D2 Old Footprint=RESC1607X60N New Footprint=0603

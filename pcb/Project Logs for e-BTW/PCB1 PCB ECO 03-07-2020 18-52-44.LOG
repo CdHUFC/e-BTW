@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=+3V3 Pin=D1-1
+Removed Pin From Net: NetName=NetD1_2 Pin=D1-2
+Removed Pin From Net: NetName=USB_VBUS Pin=D2-1
+Removed Pin From Net: NetName=NetD2_2 Pin=D2-2
+Removed Pin From Net: NetName=LED_OUT Pin=D3-1
+Removed Pin From Net: NetName=NetD3_2 Pin=D3-2
+Change Component DesignItemId : Designator=D1 Old DesignItemId=LED2 New DesignItemId=SML-E12M8WT86
+Change Component DesignItemId : Designator=D2 Old DesignItemId=LED2 New DesignItemId=SML-E12M8WT86
+Change Component DesignItemId : Designator=D3 Old DesignItemId=LED2 New DesignItemId=SML-E12M8WT86
+Change Component Comment : Designator=D1 Old Comment=LED2 New Comment=SML-E12M8WT86
+Change Component Comment : Designator=D2 Old Comment=LED2 New Comment=SML-E12M8WT86
+Change Component Comment : Designator=D3 Old Comment=LED2 New Comment=SML-E12M8WT86
+Change Component Description : Designator=D1 Old Description=Typical RED, GREEN, YELLOW, AMBER GaAs LED New Description=No Description Available
+Change Component Description : Designator=D2 Old Description=Typical RED, GREEN, YELLOW, AMBER GaAs LED New Description=No Description Available
+Change Component Description : Designator=D3 Old Description=Typical RED, GREEN, YELLOW, AMBER GaAs LED New Description=No Description Available
+Change Component Library : Designator=D1 Old Library=Miscellaneous Devices.IntLib New Library=2020-07-03_21-25-34.SchLib
+Change Component Library : Designator=D2 Old Library=Miscellaneous Devices.IntLib New Library=2020-07-03_21-25-34.SchLib
+Change Component Library : Designator=D3 Old Library=Miscellaneous Devices.IntLib New Library=2020-07-03_21-25-34.SchLib
+Change component parameters: Designator = "D1"; Footprint = "LED_SMLD12_ROM"; UniqueID = "\LIGFPLTU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SML-E12M8WT86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2"; Footprint = "LED_SMLD12_ROM"; UniqueID = "\DPBJMVIN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SML-E12M8WT86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3"; Footprint = "LED_SMLD12_ROM"; UniqueID = "\IDACFTJB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SML-E12M8WT86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_2 Pin=D1-1
+Added Pin To Net: NetName=+3V3 Pin=D1-2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-1
+Added Pin To Net: NetName=USB_VBUS Pin=D2-2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-1
+Added Pin To Net: NetName=LED_OUT Pin=D3-2
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD2_1
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD3_1

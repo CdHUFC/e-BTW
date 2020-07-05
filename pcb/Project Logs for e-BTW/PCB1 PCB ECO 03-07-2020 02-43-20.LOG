@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=1 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Change Component Footprint: Designator=2 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Change Component Footprint: Designator=3 Old Footprint=J1-0603 New Footprint=RESC1607X60N
+Added Room: Name=H-Bridge
+Added Room: Name=Sheet1

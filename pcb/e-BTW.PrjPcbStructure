@@ -1,1 +1,4 @@
-Record=TopLevelDocument|FileName=H-Bridge.SchDoc
+Record=TopLevelDocument|FileName=PCB_TopSchematic.SchDoc
+Record=SheetSymbol|SourceDocument=PCB_TopSchematic.SchDoc|Designator=MotorX|SchDesignator=MotorX|FileName=H-Bridge.SchDoc|SymbolType=Normal|RawFileName=H-Bridge.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PCB_TopSchematic.SchDoc|Designator=MotorY|SchDesignator=MotorY|FileName=H-Bridge.SchDoc|SymbolType=Normal|RawFileName=H-Bridge.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PCB_TopSchematic.SchDoc|Designator=MotorZ|SchDesignator=MotorZ|FileName=H-Bridge.SchDoc|SymbolType=Normal|RawFileName=H-Bridge.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
